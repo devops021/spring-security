@@ -26,7 +26,7 @@ public class MySecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
-    @Bean
+    /*@Bean
     UserDetailsService userDetailsService(){
         InMemoryUserDetailsManager userDetailsService = new InMemoryUserDetailsManager();
         UserDetails userDetails = User.withUsername("mukul")
@@ -34,5 +34,5 @@ public class MySecurityConfig {
                 .authorities("read").build();
         userDetailsService.createUser(userDetails);
         return userDetailsService;
-    }
+    }*/
 }
