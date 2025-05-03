@@ -17,7 +17,8 @@ public class MySecurityConfig {
     @Bean
     SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
         httpSecurity.formLogin(Customizer.withDefaults());
-        httpSecurity.authorizeHttpRequests(auth->auth.anyRequest().authenticated());
+        httpSecurity.authorizeHttpRequests(auth->auth
+                .requestMatchers("/hello").authenticated());
         return httpSecurity.build();
     }
 
