@@ -1,13 +1,13 @@
-package com.mas.spring.seurity.springsecurityapp;
+package com.bharath.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringsecurityappApplication {
+public class CouponserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringsecurityappApplication.class, args);
+		SpringApplication.run(CouponserviceApplication.class, args);
 	}
 
 }
