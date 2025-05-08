@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bharath.springcloud</groupId>
-	<artifactId>couponservice</artifactId>
+	<artifactId>productservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>couponservice</name>
-	<description>Coupon Service</description>
+	<name>productservice</name>
+	<description>Product Service</description>
 	<url/>
 	<licenses>
 		<license/>
